@@ -48,15 +48,15 @@ SRCS =  \
         srcs/ft_putnbr_fd.c		
 			
 BONUS = \
-		bonus/ft_lstmap.c		\
-		bonus/ft_lstlast.c		\
-		bonus/ft_lstnew.c		\
-		bonus/ft_lstadd_back.c  \
-		bonus/ft_lstadd_front.c	\
-		bonus/ft_lstclear.c		\
-		bonus/ft_lstdelone.c	\
-		bonus/ft_lstiter.c		\
-		bonus/ft_lstsize.c		\
+		_bonus/ft_lstmap.c		\
+		_bonus/ft_lstlast.c		\
+		_bonus/ft_lstnew.c		\
+		_bonus/ft_lstadd_back.c  \
+		_bonus/ft_lstadd_front.c	\
+		_bonus/ft_lstclear.c		\
+		_bonus/ft_lstdelone.c	\
+		_bonus/ft_lstiter.c		\
+		_bonus/ft_lstsize.c		\
 		
 HEADERS = includes
 OBJS = ${SRCS:.c=.o}
